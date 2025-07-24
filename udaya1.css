@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(120, 255, 233);
+}
+nav{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(224, 154, 215);
+    position: relative;
+    height: 70px;
+    z-index: 100;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    }
+nav ul li{
+    list-style-type: none;
+
+}    
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.name{
+    color: white;
+}
+.bar i{
+   color: white;
+   font-size: 30px;
+} 
+.bar{
+    display: none;
+}   
+@media (max-width:600px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color:crimson ;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 12px;
+    }
+    .bar{
+        display: block;
+    }
+    #menu-list{
+        transition: all 0.5s ease;
+
+    }
+}
+@media (max-width:768px) {
+   
+    .para{
+        flex-direction: column;
+        position: relative;
+        left: 30px;
+        
+    }
+    .para p{
+      
+        position: relative;
+        width: 200px;
+        line-height: 40px;
+        
+    }
+    .photo img{
+        position: relative;
+        top: 30px;
+    }
+}
+/* navbar end */
+
+.para{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px;
+    
+    font-size: 25px;
+}
+.para p{
+    width: 700px;
+}
+.photo img{
+    position: relative;
+    left: -60px;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    
+}
+@media (max-width:600px) {
+    .para{
+        flex-direction: column;
+        column-gap: 40px;
+        font-size: 20px;
+        position: relative;
+        left: -20px;
+        
+    }
+   .para p{
+        width: 300px;
+    }
+    .photo img{
+        position: relative;
+        left: 0px;
+        width: 300px;
+        height: 300px;
+    }
+}
+/* home page end */
+
+/* button */
+button{
+    width: 100px;
+    height: 50px;
+    flex-direction: row;
+    gap: 50px 50px;
+    margin: 10px;
+    position: absolute;
+    border-radius: 5px;
+    border: none;
+
+}
+button:hover{
+    background-color: rgb(164, 170, 170);
+    color: white;
+}
+.bn{
+    position: absolute;
+    top: 75vh;
+    left: 60px;
+}
+.bn1{
+    position: absolute;
+    top: 75vh;
+    left: 200px;
+}
+@media (max-width:600px) {
+    .bn{
+        position: absolute;
+        top: 150vh;
+        right: 40px;
+    }
+    .bn1{
+        position: absolute;
+        top: 150vh;
+        
+    }
+    .button{
+        position: absolute;
+        top: 0;
+        left: 35px;
+    }
+    .about{
+        position: absolute;
+        top: 165vh;
+        left: 185px;
+
+    }
+}
+/* about start */
+.about{
+    text-align: center;
+}
+#udaya{
+    width: 700px;
+    position: absolute;
+    left: 40%;
+    top: 680px;
+    font-size: 20px;
+   
+}
+.address{
+    position: absolute;
+    left: 40%;
+    top: 850px;
+    font-size: 40px;
+}
+.photo2 {
+    border-radius: 5px;
+    margin: 70px;
+    width: 350px;
+    height: 500px;
+}
+
+@media (max-width:600px){
+    .photo2{
+            position: absolute;
+            top: 165vh;
+            width: 300px;
+            height: 380px;
+            left: 30px;
+    }
+    #udaya{
+        position: absolute;
+        top:240vh;
+        left: 50px;
+        width: 350px;
+        font-size: 15px;
+    }
+    .address{
+        position: absolute;
+        top: 260vh;
+        left: 50px;
+        font-size: 20px;
+    }
+}
+/* about end */
+
+
+/* skills start */
+
+.skills h1{
+    text-align: center;
+    
+}
+.skills h2{
+    font-size: 25px;
+    position: absolute;
+    left: 15%;
+    top: 203vh;
+}
+.skills h3{
+    font-size: 25px;
+    position: absolute;
+    left: 84%;
+    top: 203vh;
+}
+.skills h4{
+    position: absolute;
+    font-size: 25px;
+    left: 650px;
+    top: 203vh;
+}
+
+.udaya img{
+    padding: 10px;
+    position: relative;
+    left: 40px;
+    bottom: -100px;
+}
+.udaya1 img{
+    padding: 10px;
+    position: relative;
+    left: 43%;
+    bottom: 45px;
+}
+.sql{
+    width: 105px;
+    height: 130px;
+    position: absolute;
+    top: 216vh;
+    right: 107px;
+}
+@media (max-width:600px){
+    .skills h1{
+        position: absolute;
+        top: 291vh;
+        left: 200px;
+    }
+    .skills h2{
+        position: absolute;
+        top: 300vh;
+        left: 200px;   
+    }
+    .udaya img{
+     bottom: -158vh;
+     left: 25px;
+    }
+    .skills h4{
+        position: absolute;
+        top: 335vh;
+        left: 205px;  
+    }
+    .udaya1 img{
+        bottom: -168vh;
+        left: 75px;
+    }
+    .skills h3{
+        position: absolute;
+        top: 368vh;
+        left: 205px; 
+    }
+    .sql{
+       position: absolute;
+       top: 380vh;
+       left: 210px;
+    }
+}
+/* skills start */
+
+/* project */
+ 
+
+.project h1{
+    text-align: center;
+}
+
+.project img{
+    width: 380px;
+    height: 280px;
+    margin: 30px;
+    border-radius: 10px;
+}
+@media (max-width:600px){
+    .project h1{
+        position: absolute;
+        top: 407vh;
+        left: 42%;
+    }
+    .project img{
+        width: 300px;
+        height: 200px;
+        }
+    .pro1{
+        position: absolute;
+        top: 411vh;
+        left: 75px;
+    }
+    .pro2{
+        position: absolute;
+        top: 450vh;
+        left: 75px;
+    }
+    .pro3{
+        position: absolute;
+        top: 490vh;
+        left: 75px;
+    }
+}
+
+/* project end */
+
+ .abc h1{
+ text-align: center;
+}
+.text input{
+    position: relative;
+    padding: 15px;
+    margin: 10px;
+    width: 60%;
+    left: 20%;
+    
+}
+textarea{
+    position: relative;
+    top: 1vh;
+   left: 280px;
+   width: 60%;
+   padding: 20px;
+}
+.submit input{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 350vh;
+    left: 43%;
+    width: 200px;
+    height: 40px;
+}
+.end{
+    position: absolute;
+    top: 363vh;
+    left: 560px;
+    font-size: 40px;
+    font-style: italic;
+}
+@media (max-width:600px){
+    .abc h1{
+        position: absolute;
+        top: 530vh;
+        left: 33%;
+    }
+    .text{
+        position: absolute;
+        top:537vh ;
+        width: 500px;
+    }
+    textarea{
+        position: absolute;
+        top: 150px;
+        left: 110px;
+    }
+    .submit input{
+        position: absolute;
+        top: 575vh;
+        width: 150px;
+        left: 39%;
+    }
+    .end{
+        position: absolute;
+        top: 586vh;
+        left: 140px;
+    }
+}

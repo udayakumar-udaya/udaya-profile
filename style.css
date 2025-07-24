@@ -1,0 +1,254 @@
+body{
+    background-color: rgb(168, 255, 226);
+}
+/* navebare start */
+*{
+    right: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    top: 0;
+    position: relative;
+    left: 70px;
+}
+ a{
+    float: left;
+}
+li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+li a:hover{
+    background-color: rgb(93, 93, 255);
+    color: white;
+    border-radius: 8px;
+}
+/* navebare end */
+h1{
+    position:absolute;
+    left: 19px;
+    top: 5px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* login top start */
+ 
+ 
+   .button-3{
+      position: relative;
+      left: 30px;
+      top: 15px;
+      border: none;
+      
+   }
+   .button-2{
+    position: relative;
+    left: 25px;
+    top: 15px;
+    border: none;
+ }
+ .button-1{
+    position: relative;
+    left: 20px;
+    top: 15px;
+    border: none;
+ }
+ .button-1:hover{
+    background-color: rgb(77, 77, 255);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    
+
+ }
+ .button-2:hover{
+    background-color: rgb(77, 77, 255);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    
+
+ }
+ .button-3:hover{
+    background-color: rgb(77, 77, 255);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    }
+    
+ @media screen and (min-width:700px){
+      .login-button{
+        position: absolute;
+        top: 0;
+        right: 6%;
+      }
+    
+ }
+ .container{
+    display: inline-block;
+    cursor: pointer;
+ }
+ .bar1, .bar2, .bar3{
+    width: 4px;
+    height: 3px;
+    margin: 4px 0;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 210px;
+    top: -5px;
+ }
+ @media screen and (min-width:700px){
+    .container{
+        position:relative;
+        bottom: 20px;
+        left: 82%;
+    }
+ }
+ /* content start */
+   .content{
+   background:linear-gradient(rgb(255, 118, 118),rgb(219, 192, 192));
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    font-size: 30px;
+    position: relative;
+    top: -1pc;
+    margin: 20px;
+    color: white;
+    display: grid;
+    border-radius: 5px 5px 0 0;
+   }
+   .content2{
+    position: relative;
+    left: 50px;
+   }
+   @media screen and (min-width:700px){
+       .content2 h2{
+         font-size: 70px;
+       }
+   }
+   .button-4{
+    position: relative;
+    bottom: 20px;
+    left: 48%;
+    border: none;
+    background-color: rgb(146, 146, 255);
+    padding: 7px;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+   }
+  @media (min-width:700px){
+    .content .button-4{
+        position:absolute;
+        left: 3pc;
+        top: 20pc;
+        
+    }
+  }
+   /*content end */
+   @media screen and (min-width:700px){
+        .content{
+            position: relative;
+            top: -2pc;
+        
+        }
+        .img{
+            position: relative;
+            left: 30%;
+        }
+   }
+ 
+   .img img{
+    position: relative;
+     left: 180px;
+   }
+  @media screen and (min-width:700px){
+    .img img{
+        position: relative;
+        left: 35%;
+        bottom: 70px;
+        width: 400px;
+    }
+    .content .content2{
+        position: relative;
+        top: 5pc;
+    }
+    
+  }
+.computer{
+    position: relative;
+    bottom: 36px;
+    left: 20px;
+    background-color: rgb(255, 79, 79);
+    width: 94%;
+    height: 65px;
+    
+}
+@media screen and (min-width:700px){
+    .computer{
+        width: 97%;
+    }
+}
+.computer-1{
+    position: relative;
+    top: 32px;
+    left: 11%;
+    width: 500px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+}
+@media screen and (min-width:700px){
+    .computer-1{
+        position: relative;
+        width: 60%;
+        left: 22%;
+    }
+    .computer{
+        position: absolute;
+        top:30pc;
+    }
+}
+.para{
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    color: white;
+}
+input::placeholder{
+    position: relative;
+    left: 25px;
+}
+.option{
+    border: none;
+    width: 20px;
+    position: relative;
+    left: 85%;
+    top: -26px;
+}
+@media screen and (min-width:700px){
+    .option{
+    position: relative;
+    left: 80%;
+   }
+}
+.para1{
+    position: relative;
+    left: 78%;
+    bottom: 8px;
+}
+@media screen and (min-width:700px){
+    .para1{
+    position: relative;
+    left: 77%;
+    }
+}
